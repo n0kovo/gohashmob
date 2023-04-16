@@ -23,7 +23,7 @@ go install github.com/n0kovo/gohashmob@latest
 acidbrn@gibson# gohashmob -h
 Reads a list of hashes and looks for their cleartext counterparts in HashMob's database.
 If no positional argument is provided and the program detects a pipe, hashes are read from STDIN.
-A valid API key must be supplied via the HASHMOB_API environment variable.
+A valid API key must be supplied via the HASHMOB_KEY environment variable.
 
 Usage: ./hashmob [-q] [-n] <hash input> (single hash / comma separated hashes / file path)
   -n	Disable JSON response prettifying
