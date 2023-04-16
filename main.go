@@ -53,7 +53,7 @@ func main() {
 	flag.Usage = func() {
 		fmt.Println("Reads a list of hashes and looks for their cleartext counterparts in HashMob's database.")
 		fmt.Println("If no positional argument is provided and the program detects a pipe, hashes are read from STDIN.")
-		fmt.Println("A valid API key must be supplied via the HASHMOB_API environment variable.")
+		fmt.Println("A valid API key must be supplied via the HASHMOB_KEY environment variable.")
 		fmt.Fprintf(os.Stdout, "\nUsage: %s [-q] [-n] <hash input> (single hash / comma separated hashes / file path)\n", os.Args[0])
 		flag.PrintDefaults()
 		fmt.Fprintf(os.Stdout, "\nExamples: \n")
