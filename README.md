@@ -13,6 +13,11 @@
 - 🏷   Read API key from environmennt variable
    - `export HASHMOB_KEY=[key]`
 
+### Installation:
+```console
+go install github.com/n0kovo/gohashmob@latest
+```
+
 ### Usage:
 ```console
 Reads a list of hashes and looks for their cleartext counterparts in HashMob's database.
