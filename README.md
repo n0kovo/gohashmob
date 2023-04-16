@@ -14,12 +14,13 @@
    - `export HASHMOB_KEY=[key]`
 
 ### Installation:
-```console
+```sh-session
 go install github.com/n0kovo/gohashmob@latest
 ```
 
 ### Usage:
-```console
+```sh-session
+acidbrn@gibson# gohashmob -h
 Reads a list of hashes and looks for their cleartext counterparts in HashMob's database.
 If no positional argument is provided and the program detects a pipe, hashes are read from STDIN.
 A valid API key must be supplied via the HASHMOB_API environment variable.
