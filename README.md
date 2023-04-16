@@ -2,12 +2,15 @@
  Quickly look up hashes in your terminal using the [HashMob](https://hashmob.net/) API
  
 ### Features
-- 🗣 Read one or more hashes from argument
-- 📄 Read hashes from file
-- ↙️ Read hashes from STDIN
-- ✨ Pretty print API response JSON
-- 💿 Output founds in hash:plain format
-- 🏷 Read API key from environmennt variable
+- 🗣   Read one or more hashes from argument
+  - `gohashmob [hash]`, `gohashmob [hash],[hash]`
+- 📄   Read hashes from file
+  - `gohashmob /path/to/file`
+- ↙️   Read hashes from STDIN
+  - `cat hashes.txt | gohashmob`
+- ✨   Pretty print API response JSON
+- 💿   Output founds in hash:plain format
+- 🏷   Read API key from environmennt variable
 
 ### Usage:
 ```console
