@@ -1,4 +1,4 @@
-module github.com/n0kovo/gohashmob
+module github.com/n0kovo/gohashmob/v2
 
 go 1.19
 
