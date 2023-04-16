@@ -1,4 +1,4 @@
-package gohashmob
+package main
 
 import (
 	"bufio"
