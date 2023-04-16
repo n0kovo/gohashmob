@@ -1,7 +1,7 @@
 # gohashmob
  Quickly look up hashes in your terminal using the [HashMob](https://hashmob.net/) API
  
-### Features
+### Features:
 - 🗣   Read one or more hashes from argument
   - `gohashmob [hash]`, `gohashmob [hash],[hash]`
 - 📄   Read hashes from file
@@ -12,6 +12,11 @@
 - 💿   Output founds in hash:plain format
 - 🏷   Read API key from environmennt variable
    - `export HASHMOB_KEY=[key]`
+
+### Demo:
+<p align="center">
+<img src="https://user-images.githubusercontent.com/16690056/232305757-547293d4-b25a-4511-a452-96118b512344.svg" data-canonical-src="https://user-images.githubusercontent.com/16690056/232305757-547293d4-b25a-4511-a452-96118b512344.svg" width=450 />
+</p>
 
 ### Installation:
 ```sh-session
