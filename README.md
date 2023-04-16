@@ -11,6 +11,7 @@
 - ✨   Pretty print API response JSON
 - 💿   Output founds in hash:plain format
 - 🏷   Read API key from environmennt variable
+   - `export HASHMOB_KEY=[key]`
 
 ### Usage:
 ```console
