@@ -1,7 +1,7 @@
 # gohashmob
  Quickly look up hashes in your terminal using the [HashMob](https://hashmob.net/) API
  
-###Features
+### Features
 - 🗣 Read one or more hashes from argument
 - 📄 Read hashes from file
 - ↙️ Read hashes from STDIN
